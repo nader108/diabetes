@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-with open("diabetes/diabetes_model.pkl", "rb") as file:
+with open("nader108/diabetes/diabetes_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Diabetes Prediction App")
