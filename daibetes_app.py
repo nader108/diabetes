@@ -1,8 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-import sklearn
-##load model
+
 with open("diabetes_model.pkl", "rb") as file:
 
     model = pickle.load(file)
